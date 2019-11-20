@@ -5,7 +5,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     
-  
+  BRANDS << brand if BRANDS.iclude!(BRANDS[brand])
   end 
   end
 
