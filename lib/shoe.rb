@@ -17,7 +17,7 @@ class Shoe
      @brand = brand
   end 
   
-  def uniq_brands
+  def uniq_brands(brand)
     BRANDS.uniq
   end 
  
