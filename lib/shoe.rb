@@ -6,7 +6,6 @@ class Shoe
     @brand = brand
     
   BRANDS << brand if BRANDS.iclude!(BRANDS[brand])
-  end 
   end
 
   def cobble
